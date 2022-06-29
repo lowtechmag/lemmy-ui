@@ -252,10 +252,10 @@ export const SYMBOLS = (
         </g>
       </symbol>
       <symbol id="icon-more-vertical" viewBox="0 0 100 100">
-        <g id="Layer_25" data-name="Layer 25">
-          <circle class="cls-1" cx="50" cy="26.41" r="8.7" />
+        <g id="more" data-name="more">
+          <circle class="cls-1" cx="73.59" cy="50" r="8.7" />
           <circle class="cls-1" cx="50" cy="50" r="8.7" />
-          <circle class="cls-1" cx="50" cy="73.59" r="8.7" />
+          <circle class="cls-1" cx="26.41" cy="50" r="8.7" />
         </g>
       </symbol>
       <symbol id="icon-bell" viewBox="0 0 100 100">
@@ -321,9 +321,9 @@ export const SYMBOLS = (
       </symbol>
       <symbol id="icon-message-square" viewBox="0 0 100 100">
         <g id="comment">
-          <polygon
+          <path
             class="cls-1"
-            points="85.72 13.38 14.28 13.38 14.28 62.49 30.13 62.49 30.13 86.62 56.01 62.49 85.72 62.49 85.72 13.38"
+            d="M26.13,97.31V75.49H12.28V19.38H85.72V75.49H57.27ZM20.28,67.49H34.13V81.93L54.75,67.49h23V27.38H20.28Z"
           />
         </g>
       </symbol>
