@@ -32,7 +32,6 @@ import {
   isImage,
   isMod,
   isVideo,
-  md,
   mdToHtml,
   numToSI,
   relTags,
@@ -359,20 +358,7 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
         <li className="list-inline-item">•</li>
         <li className="list-inline-item">{this.commentsButton}</li>
         <li className="list-inline-item">{this.mobileVotes}</li>
-        {post_view.post.body && (
-          <>
-            <li className="list-inline-item">
-              <button
-                className="text-muted btn btn-sm btn-link p-0"
-                data-tippy-content={md.render(post_view.post.body)}
-                data-tippy-allowHtml={true}
-                onClick={linkEvent(this, this.handleShowBody)}
-              >
-                <Icon icon="book-open" classes="icon-inline mr-1" />
-              </button>
-            </li>
-          </>
-        )}
+
         {UserService.Instance.myUserInfo &&
           !this.props.viewOnly &&
           this.postActions()}
