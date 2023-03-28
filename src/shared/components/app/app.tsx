@@ -49,7 +49,7 @@ export class App extends Component<AppProps, any> {
                 </Helmet>
               )}
             <Navbar site_res={this.props.siteRes} />
-            <div class="mt-4 p-0 fl-1">
+            <div class="mt-4 px-3 fl-1">
               <Switch>
                 {routes.map(({ path, exact, component: C, ...rest }) => (
                   <Route

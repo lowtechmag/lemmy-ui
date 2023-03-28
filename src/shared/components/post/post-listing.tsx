@@ -297,7 +297,7 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
   sourceHost() {
     let post_view = this.props.post_view;
     return (
-      <span class="text-muted source-host ml-1">
+      <span class="text-muted source-host pt-1">
         {post_view.post.url && !(hostname(post_view.post.url) == externalHost) && (
           <>
             (
